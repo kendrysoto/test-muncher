@@ -87,7 +87,7 @@ const ProductsContainer = styled.div`
   }
 
   h2{
-    color: #e8c4d8;
+    color: #85144b;
     margin-top:30px;  
   }
 
@@ -197,11 +197,7 @@ const Products = () => {
 
   const editProduct = (id) => {
     setCurrentId(id);
-    /* window.scroll({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });*/
+    window.scrollTo(0, 1000);
   };
 
   useEffect(() => {
